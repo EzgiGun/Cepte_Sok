@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CepteSokApp.Kampanyalar">
+    
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="Kampanyalar" FontSize="15" Padding="70,0,0,0" FontAttributes="Bold"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+
+                <ImageButton Source="K1.jpg" BackgroundColor="White" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
+                <ImageButton Source="K2.jpg" BackgroundColor="White" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
+                <ImageButton Source="K3.jpg" BackgroundColor="White" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
+                <ImageButton Source="K4.jpg" BackgroundColor="White" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
+                <ImageButton Source="K5.jpg" BackgroundColor="White" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
+                <ImageButton Source="K6.jpg" BackgroundColor="White" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
+
+            </StackLayout>
+
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

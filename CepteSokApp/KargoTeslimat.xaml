@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CepteSokApp.KargoTeslimat"
+             NavigationPage.IconColor="Black">
+
+
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="" FontSize="15" Padding="70,0,0,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <ScrollView>
+
+        <Grid BackgroundColor="White" 
+                  >
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <StackLayout Orientation="Vertical" VerticalOptions="Center"
+                             Grid.Row="0" Grid.Column="0">
+
+                <ImageButton Source="kTeslimat1.jpg" HeightRequest="90" BackgroundColor="White"/>
+
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <ImageButton Source="AlisverisSepet.png" HeightRequest="22" BackgroundColor="White"/>
+                        <Label Text="189.90₺" TextColor="#ff3824" BackgroundColor="#ffe000" VerticalOptions="Center" Padding="2" CharacterSpacing=".5"/>
+                    </StackLayout>
+
+                    <Label Text="Funko Pop Harley Quinn Holiday" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+                    <Button Text="+"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                FontAttributes="Bold"
+                                FontSize="9"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnPlusClicked0"
+                                x:Name="btn0"/>
+
+                    <Label Text="Adet : 1" VerticalOptions="Center" x:Name="label"/>
+
+                    <Button Text="-"
+                                FontAttributes="Bold"
+                                TextColor="Black"
+                                FontSize="9"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnEpsClicked0"
+                                x:Name="btt0"/>
+
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" VerticalOptions="Center"
+                             Grid.Row="0" Grid.Column="1">
+
+                <ImageButton Source="kTeslimat2.jpg" HeightRequest="90" BackgroundColor="White"/>
+
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <ImageButton Source="AlisverisSepet.png" HeightRequest="22" BackgroundColor="White"/>
+                        <Label Text="349.90₺" TextColor="#ff3824" BackgroundColor="#ffe000" VerticalOptions="Center" Padding="2" CharacterSpacing=".5"/>
+                    </StackLayout>
+
+                    <Label Text="Funko Pop Figür Captain America " HorizontalTextAlignment="Center"/>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+                        <Button Text="+"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                FontAttributes="Bold"
+                                FontSize="9"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnPlusClicked1"
+                                x:Name="btn1"/>
+
+                        <Label Text="Adet : 1" VerticalOptions="Center" x:Name="label1"/>
+
+                        <Button Text="-"
+                                FontAttributes="Bold"
+                                TextColor="Black"
+                                FontSize="9"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnEpsClicked1"
+                                x:Name="btt1"/>
+
+                    </StackLayout>
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" VerticalOptions="Center"
+                             Grid.Row="0" Grid.Column="2">
+
+                <ImageButton Source="kTeslimat3.png" HeightRequest="90" BackgroundColor="White"/>
+
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <ImageButton Source="AlisverisSepet.png" HeightRequest="22" BackgroundColor="White"/>
+                        <Label Text="349.90₺" TextColor="#ff3824" BackgroundColor="#ffe000" VerticalOptions="Center" Padding="2" CharacterSpacing=".5"/>
+                    </StackLayout>
+
+                    <Label Text="Funko Pop Figür Zorii Bliss" HorizontalTextAlignment="Center"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+                        <Button Text="+"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                FontAttributes="Bold"
+                                FontSize="9"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnPlusClicked2"
+                                x:Name="btn2"/>
+
+                        <Label Text="Adet : 1" VerticalOptions="Center" x:Name="label2"/>
+
+                        <Button Text="-"
+                                FontAttributes="Bold"
+                                TextColor="Black"
+                                FontSize="9"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnEpsClicked2"
+                                x:Name="btt2"/>
+
+                    </StackLayout>
+
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" VerticalOptions="Center"
+                             Grid.Row="1" Grid.Column="0">
+
+                <ImageButton Source="kTeslimat4.png" HeightRequest="75" BackgroundColor="White"/>
+
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <ImageButton Source="AlisverisSepet.png" HeightRequest="22" BackgroundColor="White"/>
+                        <Label Text="54.95₺" TextColor="#ff3824" BackgroundColor="#ffe000" VerticalOptions="Center" Padding="2" CharacterSpacing=".5"/>
+                    </StackLayout>
+
+                    <Label Text="Funko Pop Figür Jannah" HorizontalTextAlignment="Center" Padding="10,0,5,0"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+                        <Button Text="+"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                FontAttributes="Bold"
+                                FontSize="9"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnPlusClicked3"
+                                x:Name="btn3"/>
+
+                        <Label Text="Adet : 1" VerticalOptions="Center" x:Name="label3"/>
+
+                        <Button Text="-"
+                                FontAttributes="Bold"
+                                TextColor="Black"
+                                FontSize="9"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnEpsClicked3"
+                                x:Name="btt3"/>
+
+                    </StackLayout>
+
+                </StackLayout>
+
+            </StackLayout>
+            
+            <StackLayout Orientation="Vertical" VerticalOptions="Center"
+                             Grid.Row="1" Grid.Column="1">
+
+                <ImageButton Source="kTeslimat5.png" HeightRequest="75" BackgroundColor="White"/>
+
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <ImageButton Source="AlisverisSepet.png" HeightRequest="22" BackgroundColor="White"/>
+                        <Label Text="349.90₺" TextColor="#ff3824" BackgroundColor="#ffe000" VerticalOptions="Center" Padding="2" CharacterSpacing=".5"/>
+                    </StackLayout>
+
+                    <Label Text="Funko Pop Figür Poe Dameron" HorizontalTextAlignment="Center" Padding="10,0,5,0"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        
+                        <Button Text="+"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                FontAttributes="Bold"
+                                FontSize="9"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnPlusClicked4"
+                                x:Name="btn4"/>
+                        
+                        <Label Text="Adet : 1" VerticalOptions="Center" x:Name="label4"/>
+
+                        <Button Text="-"
+                                FontAttributes="Bold"
+                                TextColor="Black"
+                                FontSize="9"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnEpsClicked4"
+                                x:Name="btt4"/>
+
+                    </StackLayout>
+                    
+                </StackLayout>
+
+            </StackLayout>
+
+        </Grid>
+
+
+    </ScrollView>
+</ContentPage>

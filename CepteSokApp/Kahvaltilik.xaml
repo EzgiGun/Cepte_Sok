@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CepteSokApp.Kahvaltilik">
+    
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="Kahvaltılık" FontSize="15" Padding="70,0,0,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+        <ScrollView>
+
+            <Grid BackgroundColor="White" 
+                  >
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+
+                <StackLayout Orientation="Vertical" VerticalOptions="Center"
+                             Grid.Row="0" Grid.Column="0">
+
+                    <ImageButton Source="Yumurta15.jpg" HeightRequest="90" BackgroundColor="White"/>
+
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <ImageButton Source="AlisverisSepet.png" HeightRequest="22" BackgroundColor="White"/>
+                            <Label Text="21,95₺" TextColor="#ff3824" BackgroundColor="#ffe000" VerticalOptions="Center" Padding="2" CharacterSpacing=".5"/>
+                        </StackLayout>
+
+                        <Label Text="Yumurta 15'li" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+                        <Button Text="+"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                FontAttributes="Bold"
+                                FontSize="9"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnm"
+                             />
+
+                        <Label Text="Adet : 1" VerticalOptions="Center" x:Name="label"/>
+
+                        <Button Text="-"
+                                FontAttributes="Bold"
+                                TextColor="Black"
+                                FontSize="9"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnm0"
+                               />
+
+                    </StackLayout>
+
+                </StackLayout>
+                <StackLayout Orientation="Vertical" VerticalOptions="Center"
+                             Grid.Row="0" Grid.Column="1">
+
+                    <ImageButton Source="Yumurta30.jpg" HeightRequest="90" BackgroundColor="White"/>
+
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <ImageButton Source="AlisverisSepet.png" HeightRequest="22" BackgroundColor="White"/>
+                            <Label Text="39,95₺" TextColor="#ff3824" BackgroundColor="#ffe000" VerticalOptions="Center" Padding="2" CharacterSpacing=".5"/>
+                        </StackLayout>
+
+                        <Label Text="Yumurta 30'lu " HorizontalTextAlignment="Center"/>
+
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+                            <Button Text="+"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                FontAttributes="Bold"
+                                FontSize="9"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnm1"
+                               />
+
+                            <Label Text="Adet : 1" VerticalOptions="Center" x:Name="label1"/>
+
+                            <Button Text="-"
+                                FontAttributes="Bold"
+                                TextColor="Black"
+                                FontSize="9"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnm2"
+                                />
+
+                        </StackLayout>
+                    </StackLayout>
+
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" VerticalOptions="Center"
+                             Grid.Row="0" Grid.Column="2">
+
+                    <ImageButton Source="SiyahZeytin.jpg" HeightRequest="90" BackgroundColor="White"/>
+
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <ImageButton Source="AlisverisSepet.png" HeightRequest="22" BackgroundColor="White"/>
+                            <Label Text="17,95₺" TextColor="#ff3824" BackgroundColor="#ffe000" VerticalOptions="Center" Padding="2" CharacterSpacing=".5"/>
+                        </StackLayout>
+
+                        <Label Text="Siyah Zeytin 500 Gr" HorizontalTextAlignment="Center"/>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+                            <Button Text="+"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                FontAttributes="Bold"
+                                FontSize="9"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnm3"
+                                />
+
+                            <Label Text="Adet : 1" VerticalOptions="Center" x:Name="label2"/>
+
+                            <Button Text="-"
+                                FontAttributes="Bold"
+                                TextColor="Black"
+                                FontSize="9"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnm4"
+                                />
+
+                        </StackLayout>
+
+                    </StackLayout>
+
+                </StackLayout>
+                <StackLayout Orientation="Vertical" VerticalOptions="Center"
+                             Grid.Row="1" Grid.Column="0">
+
+                    <ImageButton Source="VisneReceli.jpg" HeightRequest="75" BackgroundColor="White"/>
+
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <ImageButton Source="AlisverisSepet.png" HeightRequest="22" BackgroundColor="White"/>
+                            <Label Text="13.95₺" TextColor="#ff3824" BackgroundColor="#ffe000" VerticalOptions="Center" Padding="2" CharacterSpacing=".5"/>
+                        </StackLayout>
+
+                        <Label Text="Vişne Reçeli 380 Gr" HorizontalTextAlignment="Center" Padding="10,0,5,0"/>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+                            <Button Text="+"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                FontAttributes="Bold"
+                                FontSize="9"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnm5"
+                                />
+
+                            <Label Text="Adet : 1" VerticalOptions="Center" x:Name="label3"/>
+
+                            <Button Text="-"
+                                FontAttributes="Bold"
+                                TextColor="Black"
+                                FontSize="9"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnm6"
+                                />
+
+                        </StackLayout>
+
+                    </StackLayout>
+
+                </StackLayout>
+                <StackLayout Orientation="Vertical" VerticalOptions="Center"
+                             Grid.Row="1" Grid.Column="1">
+
+                    <ImageButton Source="Bal.jpg" HeightRequest="75" BackgroundColor="White"/>
+
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <ImageButton Source="AlisverisSepet.png" HeightRequest="22" BackgroundColor="White"/>
+                            <Label Text="30,95₺" TextColor="#ff3824" BackgroundColor="#ffe000" VerticalOptions="Center" Padding="2" CharacterSpacing=".5"/>
+                        </StackLayout>
+
+                        <Label Text="Özkovan Çiçek Balı 460 Gr" HorizontalTextAlignment="Center" Padding="10,0,5,0"/>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+                            <Button Text="+"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                FontAttributes="Bold"
+                                FontSize="9"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnm7"
+                                />
+
+                            <Label Text="Adet : 1" VerticalOptions="Center" x:Name="label4"/>
+
+                            <Button Text="-"
+                                FontAttributes="Bold"
+                                TextColor="Black"
+                                FontSize="9"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnm8"
+                                />
+
+                        </StackLayout>
+
+                    </StackLayout>
+
+                </StackLayout>
+                <StackLayout Orientation="Vertical" VerticalOptions="Center"
+                             Grid.Row="1" Grid.Column="2">
+
+                    <ImageButton Source="Gevrek.png" HeightRequest="75" BackgroundColor="White"/>
+
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <ImageButton Source="AlisverisSepet.png" HeightRequest="22" BackgroundColor="White"/>
+                            <Label Text="19.95₺" TextColor="#ff3824" BackgroundColor="#ffe000" VerticalOptions="Center" Padding="2" CharacterSpacing=".5"/>
+                        </StackLayout>
+
+                        <Label Text="Kellogg''s Special K Sade 420 Gr" HorizontalTextAlignment="Center" Padding="10,0,5,0"/>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+                            <Button Text="+"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                FontAttributes="Bold"
+                                FontSize="9"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnm9"
+                                />
+
+                            <Label Text="Adet : 1" VerticalOptions="Center" x:Name="label5"/>
+
+                            <Button Text="-"
+                                FontAttributes="Bold"
+                                TextColor="Black"
+                                FontSize="9"
+                                WidthRequest="30"
+                                HeightRequest="30"
+                                CornerRadius="15"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                BackgroundColor="#ffe000"
+                                Clicked="btnm10"
+                               />
+
+                        </StackLayout>
+
+                    </StackLayout>
+
+                </StackLayout>
+
+            </Grid>
+                
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

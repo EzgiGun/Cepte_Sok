@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CepteSokApp.MeyvemiSebzemi">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="Meyve ve Sebze" FontSize="15" Padding="70,0,0,0" FontAttributes="Bold"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Meyveler"
+               FontSize="25"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+            <ImageButton Source="Meyveler.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand" 
+                         Clicked="MeyveClicked"/>
+            <StackLayout>
+                <Label Text="Sebzeler"
+               FontSize="25"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+                <ImageButton Source="Sebzeler.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                             Clicked="SebzeClicked"/>
+            </StackLayout>
+        </StackLayout>
+        
+
+    </ContentPage.Content>
+</ContentPage>

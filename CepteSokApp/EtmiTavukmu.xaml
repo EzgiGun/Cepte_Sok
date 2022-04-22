@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CepteSokApp.EtmiTavukmu">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="Et ve Tavuk" FontSize="15" Padding="70,0,0,0" FontAttributes="Bold"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Et Ürünleri"
+               FontSize="25"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+            <ImageButton Source="Et.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand" 
+                         Clicked="EtClicked"/>
+            <StackLayout>
+                <Label Text="Tavuk Ürünleri"
+               FontSize="25"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+                <ImageButton Source="TavukU.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                             Clicked="TavukClicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
