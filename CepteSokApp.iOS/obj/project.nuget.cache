@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "dde4Lue5qEh11sHhy8AhKBlnqjYN075MNCQykbmUfZisqum1cKWCmm0SvZ+aQDAwLJs9REJvmxP9bCsgpttGdQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ezgi\\Desktop\\CepteSokApp\\CepteSokApp\\CepteSokApp.iOS\\CepteSokApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ezgi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ezgi\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\ezgi\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
