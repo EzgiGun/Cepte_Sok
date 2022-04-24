@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CepteSokApp.RegisterPage">
+    
+
+
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="WhiteSmoke">
+
+
+                <StackLayout Orientation="Horizontal" HeightRequest="45" BackgroundColor="#ffe000">
+                <Label Text="Hesabım" HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="CenterAndExpand"
+                               />
+            </StackLayout>
+
+            <StackLayout>
+                    <StackLayout Padding="0"/>
+                    <Button  Text="Lütfen önce giriş yapınız" BackgroundColor="#ffe000" Opacity="0.75"/>
+
+                    <StackLayout Padding="5"></StackLayout>
+
+
+                    <StackLayout Orientation="Horizontal" BackgroundColor="White"> 
+                        <Image Source="user.png" WidthRequest="20" Margin="5"/>
+                        <Button  Text="Kullanıcı Bilgilerim" BackgroundColor="Transparent"></Button>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                        <Image Source="wallet_icon.png" WidthRequest="20" Margin="5"/>
+                        <Button  Text="Cüzdanım" BackgroundColor="Transparent"></Button>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                        <Image Source="address_icon.png" WidthRequest="20" Margin="5"/>
+                        <Button  Text="Adreslerim" BackgroundColor="Transparent"></Button>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                        <Image Source="credit_icon.png" WidthRequest="20" Margin="5"/>
+                        <Button  Text="Ödeme Yöntemlerim" BackgroundColor="Transparent"></Button>
+                    </StackLayout>
+
+
+
+                    <StackLayout Padding="10">
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                        <Image Source="lifesaver_icon.png" WidthRequest="20" Margin="5"/>
+                        <Button  Text="Yardım" BackgroundColor="Transparent"></Button>
+                    </StackLayout>
+                    <StackLayout Padding="20"></StackLayout>
+
+                <Button Text="Bizi Arayın: 0 850 808 00 00" TextColor="Black" FontAttributes="Bold" BackgroundColor="#ffe000"></Button>
+            </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
