@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CepteSokApp.Sepet">
+
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label Text="Sepetim" FontSize="15" Padding="90,0,0,0"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <StackLayout>
+                <Image x:Name="MyImageCall" HeightRequest="100" WidthRequest="100"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="1" HorizontalOptions="Center" VerticalOptions="Center" >
+                <Label x:Name="MyItemNameShow" HorizontalOptions="Center" WidthRequest="70" VerticalOptions="Center"/>
+                <Label x:Name="MyItemExplain" Margin="20,20" FontSize="Small" HorizontalTextAlignment="Center"/>
+                <Label x:Name="MyItemPrice" Margin="20,20" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="75" BackgroundColor="#ffe000" Padding="5" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+
+
+            <StackLayout VerticalOptions="End" HorizontalOptions="Start">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button Text="+"
+                                    WidthRequest="30"
+                                    HeightRequest="30"
+                                    CornerRadius="15"
+                                    FontAttributes="Bold"
+                                    FontSize="9"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="Center"
+                                    BackgroundColor="#ffe000"
+                                    x:Name="btn_Plus"
+                                    Clicked="btnP">
+                    </Button>
+
+                    <Label Text="Adet: 1" VerticalOptions="Center" x:Name="label"/>
+
+                    <Button Text="-"
+                                    FontAttributes="Bold"
+                                    TextColor="Black"
+                                    FontSize="9"
+                                    WidthRequest="30"
+                                    HeightRequest="30"
+                                    CornerRadius="15"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="Center"
+                                    BackgroundColor="#ffe000"
+                                    x:Name="btn_Eps"
+                                    Clicked="btnE"/>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label x:Name="totalLabel" Text="Toplam Fiyat: " VerticalTextAlignment="Center"/>
+                        <ImageButton Source="AlisverisSepet.png" HeightRequest="22" BackgroundColor="#ffe000" Padding="4"/>
+                    </StackLayout>
+
+
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+
+
+</ContentPage>
