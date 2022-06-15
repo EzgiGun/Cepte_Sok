@@ -1,0 +1,13 @@
+C:\Users\Berk\Desktop\CepteSokSon\eshop-mobile-client-main\eShopOnContainers\eShopOnContainers.UnitTests\bin\Debug\netstandard2.0\eShopOnContainers.UnitTests.deps.json
+C:\Users\Berk\Desktop\CepteSokSon\eshop-mobile-client-main\eShopOnContainers\eShopOnContainers.UnitTests\bin\Debug\netstandard2.0\eShopOnContainers.UnitTests.dll
+C:\Users\Berk\Desktop\CepteSokSon\eshop-mobile-client-main\eShopOnContainers\eShopOnContainers.UnitTests\bin\Debug\netstandard2.0\eShopOnContainers.UnitTests.pdb
+C:\Users\Berk\Desktop\CepteSokSon\eshop-mobile-client-main\eShopOnContainers\eShopOnContainers.UnitTests\bin\Debug\netstandard2.0\eShopOnContainers.Core.dll
+C:\Users\Berk\Desktop\CepteSokSon\eshop-mobile-client-main\eShopOnContainers\eShopOnContainers.UnitTests\bin\Debug\netstandard2.0\eShopOnContainers.Core.pdb
+C:\Users\Berk\Desktop\CepteSokSon\eshop-mobile-client-main\eShopOnContainers\eShopOnContainers.UnitTests\obj\Debug\netstandard2.0\eShopOnContainers.UnitTests.csproj.AssemblyReference.cache
+C:\Users\Berk\Desktop\CepteSokSon\eshop-mobile-client-main\eShopOnContainers\eShopOnContainers.UnitTests\obj\Debug\netstandard2.0\eShopOnContainers.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Berk\Desktop\CepteSokSon\eshop-mobile-client-main\eShopOnContainers\eShopOnContainers.UnitTests\obj\Debug\netstandard2.0\eShopOnContainers.UnitTests.AssemblyInfoInputs.cache
+C:\Users\Berk\Desktop\CepteSokSon\eshop-mobile-client-main\eShopOnContainers\eShopOnContainers.UnitTests\obj\Debug\netstandard2.0\eShopOnContainers.UnitTests.AssemblyInfo.cs
+C:\Users\Berk\Desktop\CepteSokSon\eshop-mobile-client-main\eShopOnContainers\eShopOnContainers.UnitTests\obj\Debug\netstandard2.0\eShopOnContainers.UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\Berk\Desktop\CepteSokSon\eshop-mobile-client-main\eShopOnContainers\eShopOnContainers.UnitTests\obj\Debug\netstandard2.0\eShopOnContainers.UnitTests.csproj.CopyComplete
+C:\Users\Berk\Desktop\CepteSokSon\eshop-mobile-client-main\eShopOnContainers\eShopOnContainers.UnitTests\obj\Debug\netstandard2.0\eShopOnContainers.UnitTests.dll
+C:\Users\Berk\Desktop\CepteSokSon\eshop-mobile-client-main\eShopOnContainers\eShopOnContainers.UnitTests\obj\Debug\netstandard2.0\eShopOnContainers.UnitTests.pdb
